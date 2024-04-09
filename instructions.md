@@ -1,5 +1,5 @@
-# Instructions for Hello World
+# Instructions for Rustdesk
 
-Instructions go here. These appear to the user in the UI on the Service page under **Instructions**.
+Once rustdesk server is active on your startos machine the next step is to set up your client applications to connect to the rustdesk server.
 
-You are allowed to include basic [Markdown formatting](https://www.markdownguide.org/basic-syntax).
+
