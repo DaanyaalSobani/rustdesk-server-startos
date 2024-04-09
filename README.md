@@ -2,9 +2,9 @@
   <img src="icon.png" alt="Project Logo" width="21%">
 </p>
 
-# Hello World for StartOS
+# Rustdesk for StartOS
 
-Hello World is a simple, minimal project that serves as a template for creating a service that runs on StartOS. This repository creates the `s9pk` package that is installed to run `hello-world` on [StartOS](https://github.com/Start9Labs/start-os/). Learn more about service packaging in the [Developer Docs](https://start9.com/latest/developer-docs/).
+Rustdesk is an opensource man-in-the-middle server that can enable remote desktop connections on a variaty of devices including android, windows and mac. This repository creates the `s9pk` package that is installed to run `rustdesk-server` on [StartOS](https://github.com/Start9Labs/start-os/).
 
 ## Dependencies
 
@@ -59,27 +59,26 @@ cd start-os/
 make sdk
 start-sdk init
 ```
-Now you are ready to build the `hello-world` package!
+Now you are ready to build the `rustdesk-server` package!
 
 ## Cloning
 
 Clone the project locally:
 
 ```
-git clone https://github.com/Start9Labs/hello-world-startos.git
-cd hello-world-startos
-git submodule update --init --recursive
+git clone https://github.com/DaanyaalSobani/rustdesk-server-startos.git
+cd rustdesk-server-startos
 ```
 
 ## Building
 
-To build the `hello-world` package for all platforms using start-sdk, run the following command:
+To build the `rustdesk-server` package for all platforms using start-sdk, run the following command:
 
 ```
 make
 ```
 
-To build the `hello-world` package for a single platform using start-sdk, run:
+To build the `rustdesk-server` package for a single platform using start-sdk, run:
 
 ```
 # for amd64
@@ -109,9 +108,5 @@ make install
 ```
 
 > **Tip:** You can also install the hello-world.s9pk using **Sideload Service** under the **System > Manage** section.
-
-### Verify Install
-
-Go to your StartOS Services page, select **Hello World**, configure and start the service. Then, verify its interfaces are accessible.
 
 **Done!** 
