@@ -1,3 +1,4 @@
 #!/bin/sh
 
-exec tini hello-world
+cd / 
+exec ./init
