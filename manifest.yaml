@@ -50,7 +50,7 @@ interfaces:
     # Denotes the protocol specifications used by this interface
     protocols:
       - tcp
-      #- http
+      - http
       - udp
 dependencies: {}
 backup:
