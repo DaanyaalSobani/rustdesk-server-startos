@@ -42,26 +42,26 @@ interfaces:
         21117: "21117"
         21118: "21118"
         21119: "21119"
-    lan-config:
-      21115:
-        ssl: false
-        internal: 21115
-      21116:
-        ssl: false
-        internal: 21116
-      21117:
-        ssl: false
-        internal: 21117
-      21118:
-        ssl: false
-        internal: 21118
-      21119:
-        ssl: false
-        internal: 21119
+    # lan-config:
+    #   21115:
+    #     ssl: false
+    #     internal: 21115
+    #   21116:
+    #     ssl: false
+    #     internal: 21116
+    #   21117:
+    #     ssl: false
+    #     internal: 21117
+    #   21118:
+    #     ssl: false
+    #     internal: 21118
+    #   21119:
+    #     ssl: false
+    #     internal: 21119
     ui: false
     protocols:
       - tcp
-      - http
+    #   - http
       - udp
 dependencies: {}
 backup:
