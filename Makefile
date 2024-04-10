@@ -26,7 +26,7 @@ clean:
 
 run: docker-images/aarch64.tar docker-images/x86_64.tar
 	docker load < docker-images/x86_64.tar
-	docker run -rm -it --net=host start9/$(PKG_ID)/main:$(PKG_VERSION)
+	docker run --rm -it --net=host start9/$(PKG_ID)/main:$(PKG_VERSION)
 
 scripts/embassy.js: $(TS_FILES)
 	deno bundle scripts/embassy.ts scripts/embassy.js

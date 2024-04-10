@@ -36,18 +36,29 @@ interfaces:
     description: Rustdesk Server
     tor-config:
       port-mapping:
+        80: "80"
         21115: "21115"
         21116: "21116"
         21117: "21117"
         21118: "21118"
         21119: "21119"
     lan-config:
-      443:
-        ssl: true
+      21115:
+        ssl: false
         internal: 21115
-    # Denotes if the service has a user interface to display
+      21116:
+        ssl: false
+        internal: 21116
+      21117:
+        ssl: false
+        internal: 21117
+      21118:
+        ssl: false
+        internal: 21118
+      21119:
+        ssl: false
+        internal: 21119
     ui: false
-    # Denotes the protocol specifications used by this interface
     protocols:
       - tcp
       - http
